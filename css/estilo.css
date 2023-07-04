@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Kanit', sans-serif;
+}
+
+body {
+	background-color: #121823;
+	min-height: 100vh;
+	display: grid;
+	grid-template-areas:"header header header",
+	"main main main",
+	"main main main",
+	"footer footer footer";
+}
+/* header */
+header {
+	background-color: #0E131D;
+	height: 95px;
+	width: 1345px;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	font-size: 32px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #ffffff;
+	
+}
+
+h1 {
+	font-size: 36px;
+	color: #fff;
+}
+
+.contacto{
+	background-color: #ff3939;
+	border-radius: 10px;
+}
+/* index */
+
+.titulo-principal{
+	font-size: 128px;
+	font-weight: 700;
+}
+.subtitulo{
+	font-size: 64px;
+	color: #fff;
+}
+.descripcion{
+	color: #353535;
+	font-size: 24px;
+	font-weight: 400px;
+}
+.boton-crear{
+	background-color: #ff3939;
+	width: 392px;
+	height: 80px;
+	font-weight: 400;
+	font-size: 36px;
+	box-shadow: #121823;
+}
+
+.boton-descargar{
+	background-color: #ff3939;
+	width: 204px;
+	height: 37px;
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+/* sobre mi */
+.titulo-2{
+	font-size: 64px;
+	font-weight: 700;
+}
+.parrafo-sobremi{
+	color: #fff;
+	width: 892px;
+	height: 240px;
+	font-size: 32px;
+	font-weight: 400;
+}
+.line{
+	width: 100px;
+	height: 10px;
+	background-color: #ff3939;
+	margin-left: 5px;
+}
+
+
+/* proyectos */
+
+.titulo-3{
+	font-size: 64px;
+	font-weight: 700;}
+
+.subtitulo-3{
+	color: #ff3939;
+	font-size: 36px;
+	font-weight: 400;
+}
+
+.cuadros-proyectos{
+	background-color: #293853;
+	width: 286px;
+	height: 164px;
+	margin-bottom: 10px;
+	margin-left: 42px;
+	border-radius: 20px;
+	display: inline-block;
+}
+/* habilidades */
+.titulo-4{
+	font-size: 64px;
+	font-weight: 700;
+}
+.subtitulo-4{
+	font-size: 32px;
+	color: #ff3939;
+	font-weight: 400;
+}
+.cuadros-habilidades{
+	background-color: #263249;
+	width: 256px;
+	height: 155px;
+	margin-bottom: 10px;
+	margin-left: 42px;
+	border-radius: 20px;
+	display:inline-block;
+}
+/* contacto */
+.contac{
+	color: #ff3939;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+#name,#email,#text{
+	color: #737373;
+	background-color: #263249;
+	width: 448px;
+	height: 74px;
+	font-size: 32px;
+	font-weight: 400;
+	border: none;
+}
+#boton{
+	color: #000000;
+	background-color: #ff3939;
+	font-size: 32px;
+	font-weight: 400;
+	width: 264px; 
+	height: 74px;
+	border: none;
+}
+/* footer */
+footer,p{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+}
